@@ -16,4 +16,4 @@ git clone git://github.com/bangline/demo_cookbooks.git /tmp/chef_run
 
 cd /tmp/chef_run
 
-sudo /var/lib/gems/1.8/bin/chef-solo -c /tmp/chef_run/solo.rb -j /tmp/chef_run/node.json
+sudo /var/lib/gems/1.8/gems/chef-0.10.8/bin/chef-solo -c /tmp/chef_run/solo.rb -j /tmp/chef_run/node.json
